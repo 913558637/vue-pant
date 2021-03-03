@@ -121,7 +121,7 @@
     .run{
         display: inline-block;
         position: relative;
-        transition:transform 3s ease-out;
+        transition:transform 2s ease-out;
     }
     .canvasBox{
         transform: rotate(-90deg);

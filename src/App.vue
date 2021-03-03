@@ -8,12 +8,12 @@
 <script>
   import 'vue-pant/lib/pant.css'
   // import boxInput from '../packages/box-input'
-import {boxInput,bigTurntable} from 'vue-pant'
+// import {boxInput,bigTurntable} from 'vue-pant'
 export default {
   name: 'App',
   components: {
-    boxInput,
-    bigTurntable
+    // boxInput,
+    // bigTurntable
   },
   data(){
     return{
