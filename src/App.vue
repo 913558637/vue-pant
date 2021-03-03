@@ -1,28 +1,30 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <box-input  v-model="value"></box-input>
+    <big-turntable/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+  import 'vue-pant/lib/pant.css'
+  // import boxInput from '../packages/box-input'
+import {boxInput,bigTurntable} from 'vue-pant'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    boxInput,
+    bigTurntable
+  },
+  data(){
+    return{
+      value:'123'
+    }
   }
 }
 </script>
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
 }
 </style>

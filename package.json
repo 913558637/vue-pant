@@ -1,16 +1,22 @@
 {
-  "name": "pant",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-pant",
+  "version": "0.1.1",
+  "private": false,
+  "description": "常用验证码框 大转盘 抽奖等组件",
+  "main": "lib/pant.umd.min.js",
+  "keyword": "pant pant-ui inputBox 验证码框 大转盘 抽奖",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name pant --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "phs-p-ant-ui": "^0.1.1",
     "register-service-worker": "^1.7.1",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-pant": "^0.1.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
