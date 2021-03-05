@@ -1,6 +1,6 @@
 {
   "name": "vue-pant",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "private": false,
   "description": "常用验证码框 大转盘 抽奖等组件",
   "main": "lib/pant.umd.min.js",
@@ -16,7 +16,7 @@
     "phs-p-ant-ui": "^0.1.1",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11",
-    "vue-pant": "^0.1.1"
+    "vue-pant": "^0.1.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

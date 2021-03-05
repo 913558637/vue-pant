@@ -1,10 +1,16 @@
 // 导入颜色选择器组件
 import boxInput from './box-input'
 import bigTurntable from './big-turntable'
+import pCheckbox from './p-checkbox'
+import pCheckboxGroup from './p-checkbox-group'
+import pRadio from './p-radio'
 // 存储组件列表
 const components = [
     boxInput,
-    bigTurntable
+    bigTurntable,
+    pCheckbox,
+    pCheckboxGroup,
+    pRadio
 ];
 
 // 定义 install 方法，接收 Vue 作为参数。如果使用 use 注册插件，则所有的组件都将被注册
@@ -24,5 +30,8 @@ export {
     install,
     // 以下是具体的组件列表
     boxInput,
-    bigTurntable
+    bigTurntable,
+    pCheckbox,
+    pCheckboxGroup,
+    pRadio
 }

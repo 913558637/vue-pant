@@ -8722,6 +8722,17 @@ vue-pant@^0.1.1:
     vue "^2.6.11"
     vue-pant "^0.1.0"
 
+vue-pant@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/vue-pant/-/vue-pant-0.1.3.tgz#720e6c5661f62007bd01ebba62afcf63545a2d3c"
+  integrity sha512-IveJNFtBkE3tkGCeVBkc0ShvQUQW5HVYV3pwueQeKFIKtIBdidhA+sLP4Cej6oOt7+chiOXRfvh9fP7C20hOLw==
+  dependencies:
+    core-js "^3.6.5"
+    phs-p-ant-ui "^0.1.1"
+    register-service-worker "^1.7.1"
+    vue "^2.6.11"
+    vue-pant "^0.1.1"
+
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.2"
   resolved "https://registry.npm.taobao.org/vue-style-loader/download/vue-style-loader-4.1.2.tgz#dedf349806f25ceb4e64f3ad7c0a44fba735fcf8"

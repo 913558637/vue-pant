@@ -13,7 +13,7 @@
             </div>
             <div class="arrow"></div>
         </div>
-        <div class="button" @click="lottery">抽奖</div>
+        <div v-if="button" class="button" @click="lottery">抽奖</div>
     </div>
 </template>
 
@@ -26,8 +26,12 @@
                 default:200
             },
             index:{
-               type:Number,
+                type:Number,
                 default:4
+            },
+            button:{
+                type:Boolean,
+                default:true
             },
             options:{
                 type:Array,
@@ -148,8 +152,11 @@
         transform: translate(-50%,-10%);
     }
     .button{
-        display: inline-block;
-
+        padding: 10px 20px;
+        color: #fff;
+        background: #3858E6;
+        width: 90px;
+        margin: 20px auto;
     }
 }
 </style>
